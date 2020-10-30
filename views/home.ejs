@@ -16,7 +16,6 @@
 <body>
     
     <div class="row">
-        <!-- <a href="/games">Game</a> -->
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="image1">
                 <h5 style="font-family: 'Syne Mono', monospace; padding-bottom:2%">31 OCTOBER 2020 - Deadwood Mansion</h5>
@@ -63,12 +62,11 @@
 
             <div class="row">
                 <div class="col-lg-4">
-                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_LkZoF0.json"  background="transparent"  speed="1"  style="width: 100%; height: 400px;"  loop  autoplay></lottie-player>
+                   <h1></h1>
                 </div>
                 <div class="col-lg-4">
                     <audio id="audio" src="male-laugh.wav" autoplay="false" ></audio>
-                    <button href="#tricked" onclick="playSound(); location.href='#tricked'" type="button" class="btn btn-light btn-lg" style="border-radius: 25%; color:orange; margin:5%;">Enter</button>
+                    <button href="#tricked" onclick="playSound(); location.href='#tricked'" type="button" class="btn btn-light btn-lg" style="border-radius: 25%; color:orange; margin:10%;">Enter</button>
                     <script>
                     function playSound() {
                         var sound = document.getElementById("audio");
@@ -87,7 +85,7 @@
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_2earvhc0.json" background="transparent" speed="1" style="width: 100%; height: 300px;" loop autoplay></lottie-player>
             <h1>You got tricked!</h1>
-            <h6>There's no party. We've locked you in the Haunted House. Escape if you can!</h6>
+            <h6>There's no party. We've locked you in the Haunted House. Explore the house at your own risk. Escape if you can!</h6>
         </div>
     </div>
 
@@ -111,10 +109,24 @@
            <center> <a href="/meal" style="color:black; text-decoration:none;"><h4 style="margin-top:-3%;">Door 2</h4></a> </center>
         </div>  
     </div>
-    
-    
     </div>
 
+    <div style="background-color:#f4f4f4; padding:10%;">
+        <h1>Couldn't find your way out? </h1>
+        <h6>Alrighty, go this way!</h6>
+        <br>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_LkZoF0.json"  background="transparent"  speed="1"  style="width: 100%; height: 100px;"  loop  autoplay></lottie-player>
+        <audio id="audioEsc" src="yummy.mp3" autoplay="false" ></audio>
+        <button onclick="playSoundEsc(); location.href='/halloween'" type="button" class="btn btn-dark btn-lg" style="border-radius: 25%; color:red; margin-top:5%;">Escape</button>
+        <script>
+        function playSoundEsc() {
+            var soundEsc = document.getElementById("audio");
+            soundEsc.play();
+        }
+        </script>
+       
+</div>
 
 <section class="footer">
     <a href="http://infinitywebstudios.herokuapp.com/" style="text-decoration: none;"><p>© Copyright 2020 Infinity Web Studios</p></a>
