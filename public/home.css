@@ -1,0 +1,81 @@
+*
+{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    
+}
+
+/* Additional styling */
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom:1%;
+}
+
+.image1 {
+    width: 100%;
+    background-color: rgb(102, 45, 45);
+    padding-top: 5%;
+    color: orange;
+}
+
+.pumpkin {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#stars {
+    animation: star 20s ease infinite alternate;
+    transform-origin: bottom;
+}
+
+#birds {
+    animation: bird 0.5s ease infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes bird {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(30deg);
+    }
+}
+
+@keyframes star {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(20deg);
+    }
+}
+
+@keyframes sky {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #342e2e;
+    }
+}
+
+p
+{
+    color:white;
+}
+
+.footer
+{
+    background-color:#557571;
+    position: relative;
+    padding-bottom:2%;
+}

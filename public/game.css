@@ -1,0 +1,214 @@
+*
+{
+    font-family: 'Henny Penny', cursive;
+    text-align:center;
+
+}
+
+h1 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    color:#fe7171;
+}
+
+p{
+    color:#e8e8e8;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:1.2rem;
+    line-height: 2rem;
+}
+
+.header
+{
+    background-color: #342e2e;
+}
+
+.fortune{
+    background-color: rgb(97, 62, 92);
+}
+
+.games1 {
+    font-family: 'Henny Penny', cursive;
+    background-color: #342e2e;
+}
+
+.c1 {
+    padding: 2%;
+}
+
+.button {
+    padding:5%;
+}
+
+.xyz {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding:5%;
+}
+
+.xyz {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, gold, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 8s linear;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+.horror-text {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: flickering;
+    animation-timing-function: step-start;
+    color: #912914;
+    font-size: 55px;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+@keyframes flickering {
+    0% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    5% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    10% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(-15deg);
+    }
+    15% {
+        color: #ccc;
+        text-shadow: none;
+        transform: skewX(-15deg);
+    }
+    20% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    25% {
+        color: #ccc;
+        text-shadow: 2px 2px #912914;
+        transform: skewX(0);
+    }
+    30% {
+        color: #ccc;
+        text-shadow: 2px 2px #912914;
+        transform: skewX(0);
+    }
+    35% {
+        color: #ccc;
+        text-shadow: 2px 2px #912914;
+        transform: skewX(0);
+    }
+    37% {
+        color: #ccc;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    40% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    45% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    50% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    55% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    60% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    65% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    68% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    70% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    75% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(10deg);
+    }
+    80% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(10deg);
+    }
+    85% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(10deg);
+    }
+    90% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+    95% {
+        color: #912914;
+        text-shadow: 1px 1px #eee;
+        transform: skewX(0);
+    }
+    100% {
+        color: #912914;
+        text-shadow: none;
+        transform: skewX(0);
+    }
+}
+
+.c2 {
+    background-color: rgb(97, 62, 92);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.spiderweb {
+    padding-top: 3.7%;
+}
